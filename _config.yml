@@ -23,7 +23,7 @@ repository               : "tahirlee/tahirlee.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "t1.jpg"
+  avatar           : "t2.png"
   name             : "Tahir Mahmood"
   pronouns         : # example: "she/her"  
   bio              : "Computational Pathology | Robot-assisted surgery"
@@ -40,7 +40,7 @@ author:
   impactstory      : # URL
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
