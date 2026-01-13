@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-[Download CV here](http://jeunsom.github.io/files/cv_tahir.pdf)
+[Download CV here](http://tahirlee.github.io/files/cv_tahir.pdf)
