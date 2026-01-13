@@ -1,56 +1,72 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+#title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+I am Tahir Mahmood, an Assistant Professor at [Dongguk University, Seoul, Korea]([(https://www.dongguk.edu/eng/main)]).
+My current research interests focus on agentic artificial intelligence and large language models, with an emphasis on multimodal data analysis. I work on methods that integrate video, image, and time series data to build intelligent systems capable of autonomous reasoning, decision making, and collaboration with human experts. I am particularly interested in combining perception models with LLM driven agents for medical imaging, biomedical signal analysis, and real world clinical decision support.
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
-
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
-
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
-
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
-
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-
-Site-wide configuration
+Education
 ------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+* **Ph.D.** Computer Engineering (Electrical Engineering), Arizona State University, Tempe, AZ, USA (January 2020 ~ October 2023)
+  * Advisor: Pavan Turaga, Committee: Baoxin Li, Hyunglae Lee, Suren Jayasuriya
+  * Thesis: Knowledge Distillation with Geometric Approaches for Multimodal Data Analysis
+* **M.S.** Electronics and Electrical Engineering, Dongguk University, Seoul, Korea
+  * Advisor: Kang Ryoung Park
+  * Thesis: Study on the Approach to Human Detection in Thermal Image
+* **B.S.**  Electronics and Electrical Engineering, Dongguk University, Seoul, Korea
 
-Create content & metadata
+Professional Experience
 ------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+* Seoul National University of Science and Technology, Seoul, Korea (September 2024 ~ present)
+  * Assistant Professor, Dept. of Computer Science and Engineering
+  * Research efficient models for multimodal data analysis (video, image, time-series, etc.), human activity recognition.
+  * Research generative AI (Image, T2I, etc.).
+* Arizona State University, Tempe AZ, USA (October 2023 ~ August 2024)
+  * Postdoctoral Researcher - Geometric Media Lab (with Prof. Pavan Turaga)
+  * Researched and developed modules for human activity recognition and generative AI.
+* SRI International, Princeton, NJ, USA (May 2021 ~ August 2021)
+  * Intern - Center for Vision Technologies, Information & Computing Sciences Division
+  * Researched and developed modules for people detection (body, face, and gesture joint detection), tracking, and action recognition for an education assessment system
+* Korea Telecom, Seoul, Korea (January 2016 ~ January 2020)
+  * Research engineer - Institute of Convergence Technology
+  * Developed a real-time system for people detection and recognition by using a wearable camera with 5G, which was presented in Mobile World Congress 2019 in Barcelona
+  * Developed a real-time people counting and attribute analysis system based on deep learning models for computer and embedded applications
+  * Researched and developed a real-time gesture/motion recognition and matching systems for computer and mobile applications
 
-**Markdown generator**
-
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
+Publications (selected)
 ------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+* Ground Reaction Force Estimation via Time-aware Knowledge Distillation, IEEE Internet of Things Journal, 2025 (Accepted) [[pdf](https://ieeexplore.ieee.org/document/11029050)] [[arxiv](https://arxiv.org/abs/2506.10265)]
+  <br> **Eun Som Jeon**, Sinjini Mitra, Jisoo Lee, Omik M. Save, Ankita Shukla, Hyunglae Lee, Pavan Turaga
+* Intra-class Patch Swap for Self-Distillation, Neurocomputing, 2025 [[pdf](https://linkinghub.elsevier.com/retrieve/pii/S092523122501080X)] [[arxiv](https://arxiv.org/abs/2505.14124)]
+  <br> Hongjun Choi[^1], **Eun Som Jeon[^1]**, Ankita Shukla, Pavan Turaga
+* Deep Geometric Moments Promote Shape Consistency in Text-to-3D Generation, WACV, 2025, Feb (Tucson, AZ, USA) [[pdf](https://openaccess.thecvf.com/content/WACV2025/papers/Nath_Deep_Geometric_Moments_Promote_Shape_Consistency_in_Text-to-3D_Generation_WACV_2025_paper.pdf)] [[project](https://moment-3d.github.io/)]
+  <br> Utkarsh Nath, Rajeev Goel, **Eun Som Jeon**, Changhoon Kim, Kyle Min, Yezhou Yang, Yingzhen Yang, Pavan Turaga
+* Uncertainty-aware Topological Persistence Guided Knowledge Distillation on Wearable Sensor Data, IEEE Internet of Things Journal, 2024 [[pdf](https://ieeexplore.ieee.org/document/10554649)]
+  <br> **Eun Som Jeon**, Matthew P. Buman, Pavan Turaga
+* Topological Persistence Guided Knowledge Distillation for Wearable Sensor Data, Engineering Applications of Artificial Intelligence, 2024 [[pdf](https://www.sciencedirect.com/science/article/pii/S0952197623019036)]
+  <br> **Eun Som Jeon**, Hongjun Choi, Ankita Shukla, Yuan Wang, Hyunglae Lee, Matthew P. Buman, Pavan Turaga
+* Constrained Adaptive Distillation Based on Topological Persistence for Wearable Sensor Data, IEEE Transactions on Instrumentation and Measurement, 2023 [[pdf](https://ieeexplore.ieee.org/abstract/document/10308705?casa_token=n255xIac_1cAAAAA:LMIdEQjkKce76Ln4M0icZxPEwcB2Je8hkCKgHab_fV44b0jtKOMI2kv0YLoMq4H0rlVL4zS1Uw)]
+   <br> **Eun Som Jeon**, Hongjun Choi, Ankita Shukla, Yuan Wang, Matthew P. Buman, Pavan Turaga
+* Robust Time Series Recovery and Classification Using Test-Time Noise Simulator Networks, ICASSP, 2023 June (Rhodes, Greece) [[code](https://github.com/jeunsom/RobustTS)] [[pdf](https://ieeexplore.ieee.org/document/10096888)]
+   <br> **Eun Som Jeon**, Suhas Lohit, Rushil Anirudh, and Pavan Turaga
+* Understanding the Role of Mixup in Knowledge Distillation: An Empirical Study, WACV, 2023, Jan (Hwaii, USA) [[code](https://github.com/hchoi71/MIX-KD)] [[pdf](https://arxiv.org/pdf/2211.03946.pdf)]
+   <br> Hongjun Choi, **Eun Som Jeon**, Ankita Shukla, and Pavan Turaga 
+* Leveraging Angular Distributions for Improved Knowledge Distillation, Neurocomputing, 2023 [[code](https://github.com/jeunsom/AMD_loss)] [[pdf](https://www.sciencedirect.com/science/article/abs/pii/S0925231222014096)]
+   <br> **Eun Som Jeon**, Hongjun Choi, Ankita Shukla, and Pavan Turaga
+* Role of data augmentation strategies in knowledge distillation for wearable sensor data, IEEE Internet of Things Journal, 2021 [[pdf](https://ieeexplore.ieee.org/document/9664814)]
+   <br> **Eun Som Jeon**, Anirudh Som, Ankita Shukla, Kristina Hasanaj, Matthew P. Buman, and Pavan Turaga
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+[^1]: Equal contribution.
+
+More articles in [Publications](https://tahirlee.github.io/publications/)
 
 For more info
 ------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+More info about me can be found in [cv](https://tahirlee.github.io/cv/).
+Please email me (tahirmahmood at dongguk dot edu)
