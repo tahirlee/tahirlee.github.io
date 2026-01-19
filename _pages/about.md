@@ -30,7 +30,7 @@ Professional Experience
   * Air-fi, Barcelona, Spain
   * Assisted in developing and deploying the AIR-FI Indoor Positioning System
   * Developed a web-based platform for system visualization and management using Python, React, and Node.js
-* **Lecturer,** (Oct 2017 ~ Feb 2019) 
+* **Lecturer,** (Apr 2016 ~ Sep 2017) 
   * Faculty of CS & IT, Superior University, Lahore, Pakistan
   * Taught computer science and software engineering courses
   * Supervised final year projects and contributed to the development of industry-relevant curricula
