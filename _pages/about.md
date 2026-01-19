@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an Assistant Professor at [Dongguk University, Seoul, Korea]([(https://www.dongguk.edu/eng/main)]). My research focuses on agentic AI and large language models, particularly how multimodal data—video, image, and time series—can enable autonomous reasoning and decision-making. I work on integrating perception models with LLM-driven agents for medical imaging, biomedical signal analysis, and clinical decision support.
+I am an Assistant Professor at [Dongguk University, Seoul, Korea]([(https://www.dongguk.edu/eng/main)]). My research focuses on agentic AI and large language models, particularly how multimodal data (video, image, and time series) can enable autonomous reasoning and decision-making. I work on integrating perception models with LLM-driven agents for medical imaging, biomedical signal analysis, and clinical decision support.
 
 Education
 ------
