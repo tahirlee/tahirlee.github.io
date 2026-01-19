@@ -8,18 +8,17 @@ redirect_from:
   - /about.html
 ---
 
-I am Tahir Mahmood, an Assistant Professor at [Dongguk University, Seoul, Korea]([(https://www.dongguk.edu/eng/main)]).
-My current research interests focus on agentic artificial intelligence and large language models, with an emphasis on multimodal data analysis. I work on methods that integrate video, image, and time series data to build intelligent systems capable of autonomous reasoning, decision making, and collaboration with human experts. I am particularly interested in combining perception models with LLM driven agents for medical imaging, biomedical signal analysis, and real world clinical decision support.
+I am an Assistant Professor at [Dongguk University, Seoul, Korea]([(https://www.dongguk.edu/eng/main)]). My research focuses on agentic AI and large language models, particularly how multimodal data—video, image, and time series—can enable autonomous reasoning and decision-making. I work on integrating perception models with LLM-driven agents for medical imaging, biomedical signal analysis, and clinical decision support.
 
 Education
 ------
-* **Ph.D.** Computer Engineering (Electrical Engineering), Arizona State University, Tempe, AZ, USA (January 2020 ~ October 2023)
-  * Advisor: Pavan Turaga, Committee: Baoxin Li, Hyunglae Lee, Suren Jayasuriya
-  * Thesis: Knowledge Distillation with Geometric Approaches for Multimodal Data Analysis
-* **M.S.** Electronics and Electrical Engineering, Dongguk University, Seoul, Korea
-  * Advisor: Kang Ryoung Park
-  * Thesis: Study on the Approach to Human Detection in Thermal Image
-* **B.S.**  Electronics and Electrical Engineering, Dongguk University, Seoul, Korea
+* **Ph.D.** Doctor of Engineering (Artificial Intelligence), Dongguk University, Seoul, Republic of Korea (March 2019 ~ Februrary 2023)
+  * Advisor: Dr. Kang Ryoung Park
+  * Thesis: A Study on Deep Learning-based Classification, Detection, and Segmentation for Histopathology Images
+* **M.S.** Computer Science ((Artificial Intelligence), COMSATS University, Islamabad, Pakistan
+  * Advisor: Dr. Sheikh Ziauddin & Dr. Ahmad Raza Shahid
+  * Thesis: An Automated Mitosis Recognition Technique for Breast Cancer Histopathology Images
+* **B.S.**  Computer Science, COMSATS University, Islamabad, Pakistan
 
 Professional Experience
 ------
