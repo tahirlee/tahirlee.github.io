@@ -12,7 +12,7 @@ I am an Assistant Professor at Dongguk University in Seoul, Korea. My research f
 
 Education
 ------
-* **Ph.D.** Engineering (Artificial Intelligence), Dongguk University, Seoul, Republic of Korea (March 2019 ~ Februrary 2023)
+* **Ph.D.** Engineering (Artificial Intelligence), Dongguk University, Seoul, Korea (March 2019 ~ Februrary 2023)
   * Advisor: Dr. Kang Ryoung Park
   * Thesis: A Study on Deep Learning-based Classification, Detection, and Segmentation for Histopathology Images
 * **M.S.** Computer Science (Artificial Intelligence), COMSATS University, Islamabad, Pakistan (September 2013 ~ September 2015)
@@ -22,21 +22,18 @@ Education
 
 Professional Experience
 ------
-* Dongguk University, Seoul, Korea (March 2023 ~ present)
-  * Assistant Professor, Division of Electronics and Electrical Engineering
+* **Assistant Professor,** (Mar 2023 ~ present)
+  * Division of Electronics and Electrical Engineering, Dongguk University, Seoul, Korea 
   * Research: Agentic AI and large language models for autonomous reasoning and decision-making.
   * Teaching: Robot vision, Image processing system, Digital signal processing and control.
-* Arizona State University, Tempe AZ, USA (October 2023 ~ August 2024)
-  * Postdoctoral Researcher - Geometric Media Lab (with Prof. Pavan Turaga)
-  * Researched and developed modules for human activity recognition and generative AI.
-* SRI International, Princeton, NJ, USA (May 2021 ~ August 2021)
-  * Intern - Center for Vision Technologies, Information & Computing Sciences Division
-  * Researched and developed modules for people detection (body, face, and gesture joint detection), tracking, and action recognition for an education assessment system
-* Korea Telecom, Seoul, Korea (January 2016 ~ January 2020)
-  * Research engineer - Institute of Convergence Technology
-  * Developed a real-time system for people detection and recognition by using a wearable camera with 5G, which was presented in Mobile World Congress 2019 in Barcelona
-  * Developed a real-time people counting and attribute analysis system based on deep learning models for computer and embedded applications
-  * Researched and developed a real-time gesture/motion recognition and matching systems for computer and mobile applications
+* **Machine learning Engineer,** (Oct 2017 ~ Feb 2019) 
+  * Air-fi, Barcelona, Spain
+  * Assisted in developing and deploying the AIR-FI Indoor Positioning System
+  * Developed a web-based platform for system visualization and management using Python, React, and Node.js
+* **Lecturer,** (Oct 2017 ~ Feb 2019) 
+  * Faculty of IT and CS, Superior University, Lahore, Pakistan
+  * Taught computer science and software engineering courses
+  * Supervised final year projects and contributed to the development of industry-relevant curricula
 
 Publications (selected)
 ------
