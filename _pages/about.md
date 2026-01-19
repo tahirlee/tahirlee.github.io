@@ -22,10 +22,10 @@ Education
 
 Professional Experience
 ------
-* Seoul National University of Science and Technology, Seoul, Korea (September 2024 ~ present)
-  * Assistant Professor, Dept. of Computer Science and Engineering
-  * Research efficient models for multimodal data analysis (video, image, time-series, etc.), human activity recognition.
-  * Research generative AI (Image, T2I, etc.).
+* Dongguk University, Seoul, Korea (March 2023 ~ present)
+  * Assistant Professor, Division of Electronics and Electrical Engineering
+  * Research: Agentic AI and large language models for autonomous reasoning and decision-making.
+  * Teaching: Robot vision, Image processing system, Digital signal processing and control.
 * Arizona State University, Tempe AZ, USA (October 2023 ~ August 2024)
   * Postdoctoral Researcher - Geometric Media Lab (with Prof. Pavan Turaga)
   * Researched and developed modules for human activity recognition and generative AI.
