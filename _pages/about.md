@@ -15,10 +15,10 @@ Education
 * **Ph.D.** Doctor of Engineering (Artificial Intelligence), Dongguk University, Seoul, Republic of Korea (March 2019 ~ Februrary 2023)
   * Advisor: Dr. Kang Ryoung Park
   * Thesis: A Study on Deep Learning-based Classification, Detection, and Segmentation for Histopathology Images
-* **M.S.** Computer Science ((Artificial Intelligence), COMSATS University, Islamabad, Pakistan
+* **M.S.** Computer Science ((Artificial Intelligence), COMSATS University, Islamabad, Pakistan (September 2013 ~ September 2015)
   * Advisor: Dr. Sheikh Ziauddin & Dr. Ahmad Raza Shahid
   * Thesis: An Automated Mitosis Recognition Technique for Breast Cancer Histopathology Images
-* **B.S.**  Computer Science, COMSATS University, Islamabad, Pakistan
+* **B.S.**  Computer Science, COMSATS University, Islamabad, Pakistan (September 2009 ~ September 2013)
 
 Professional Experience
 ------
@@ -61,7 +61,6 @@ Publications (selected)
 * Role of data augmentation strategies in knowledge distillation for wearable sensor data, IEEE Internet of Things Journal, 2021 [[pdf](https://ieeexplore.ieee.org/document/9664814)]
    <br> **Eun Som Jeon**, Anirudh Som, Ankita Shukla, Kristina Hasanaj, Matthew P. Buman, and Pavan Turaga
 
-[^1]: Equal contribution.
 
 More articles in [Publications](https://tahirlee.github.io/publications/)
 
