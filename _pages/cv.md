@@ -9,7 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
----
 Education
 ------
 * **Ph.D.** Engineering (Artificial Intelligence), Dongguk University, Seoul, Korea (March 2019 ~ Februrary 2023)
