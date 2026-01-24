@@ -41,7 +41,7 @@ Professional Experience
 * **Lecturer,** (Apr 2016 ~ Sep 2017) 
   * Faculty of CS & IT, Superior University, Lahore, Pakistan
   * Taught computer science and software engineering courses
-  * Supervised final year projects and contributed to the development of industry-relevant curricula
+  * Supervised final year projects and contributed to the development of industry-relevant curriculam
 
 Publications (recent)
 ------
