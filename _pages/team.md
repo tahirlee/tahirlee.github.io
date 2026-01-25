@@ -4,11 +4,14 @@ layout: single
 permalink: /team/
 ---
 
-## Team
 
-### Principal Investigator
-**Dr. Tahir **  
-Assistant Professor, Dongguk University
+### Research Collaboration
+**Dr. Kang Ryoung Park **  
+Dongguk University, Seoul, Korea
+
+
+
+
 
 ### Students
 - PhD Student 1
