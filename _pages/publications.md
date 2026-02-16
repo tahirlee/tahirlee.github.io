@@ -4,7 +4,6 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-### Publication Summary
 
 ---
 **Total: 30 | First Author: 10 | Co-author: 20**
