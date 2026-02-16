@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-## Publication Summary  
+
 **Total: 29 | First Author: 10 | Co-author: 19**
 
 ---
