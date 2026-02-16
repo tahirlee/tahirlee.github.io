@@ -23,7 +23,7 @@ repository               : "tahirlee/tahirlee.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "t2.png"
+  avatar           : "tahirm.jpeg"
   name             : "Tahir Mahmood"
   pronouns         : # example: "she/her"  
   bio              : "Computational Pathology | Surgical Data Science"
