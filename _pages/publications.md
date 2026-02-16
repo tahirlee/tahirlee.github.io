@@ -7,8 +7,6 @@ author_profile: true
 
 **Total: 29 | First Author: 10 | Co-author: 19**
 
----
-
 ## Manuscripts Under Review / In Preparation
 
 1. **Tahir Mahmood**, et al.  
@@ -18,7 +16,6 @@ author_profile: true
 2. **Tahir Mahmood**, et al.  
    “Hallucination-Aware Multimodal Reasoning for Clinical Decision Support Systems.”  
    In Preparation for Submission, 2026.
-
 ---
 
 ## Journal Articles & Conferences
