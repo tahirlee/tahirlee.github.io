@@ -5,9 +5,6 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% include base_path %}
-
-
 **Total: 29 | First Author: 10 | Co-author: 19**
 
 ---
