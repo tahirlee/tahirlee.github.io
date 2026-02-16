@@ -3,11 +3,29 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
-
 ---
+
 {% include base_path %}
 
-Total: 29 | First Author: 10 | Co-author: 19
+## Publication Summary  
+**Total: 29 | First Author: 10 | Co-author: 19**
+
+---
+
+## Manuscripts Under Review / In Preparation
+
+1. **Tahir Mahmood**, et al.,  
+   “Agentic AI Framework for Trustworthy Medical Image Segmentation,”  
+   Under Review, 2026.
+
+2. **Tahir Mahmood**, et al.,  
+   “Hallucination-Aware Multimodal Reasoning for Clinical Decision Support Systems,”  
+   In Preparation for Submission, 2026.
+
+---
+
+## Journal Articles & Conferences
+
 ---
 
 ## 2025
