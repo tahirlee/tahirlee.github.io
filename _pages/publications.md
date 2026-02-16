@@ -6,10 +6,6 @@ author_profile: true
 ---
 ### Publication Summary
 
-**Total:** 29  
-**First Author:** 10  
-**Co-author:** 19  
-
 ---
 **Total: 29 | First Author: 10 | Co-author: 19**
 
