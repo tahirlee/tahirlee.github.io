@@ -12,9 +12,8 @@ I am currently an Assistant Professor in the Division of Electronics and Electri
 
 News
 ------
-* **2026.02.16.** Engineering (Artificial Intelligence), Dongguk University, Seoul, Korea (March 2019 ~ Februrary 2023)
-* **M.S.** Computer Science (Artificial Intelligence), COMSATS University, Islamabad, Pakistan (September 2013 ~ September 2015)
-* **B.S.**  Computer Science, COMSATS University, Islamabad, Pakistan (September 2009 ~ September 2013)
+* **2026.02.16.** Joined Advanced Multidisciplinary Engineering Journal (AMEJ) as Editorial Board Member.
+
 
 Research Interests 
 ------
