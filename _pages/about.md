@@ -12,7 +12,7 @@ I am currently an Assistant Professor in the Division of Electronics and Electri
 
 Research Interests 
 ------
-Computer Vision, Multi-modal Data Processing, Agentic Artificial Intelligence, and Large Language Models (LLMs)
+Agentic AI, Multimodal Reasoning, RAG, Hallucination, Tool-Calling Evaluation & Trustworthy Enterprise AI
 
 Application Areas 
 ------
