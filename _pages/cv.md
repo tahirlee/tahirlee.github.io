@@ -7,6 +7,8 @@ redirect_from:
   - /resume
 ---
 
+[Download CV here](http://tahirlee.github.io/files/cv_tahir.pdf)
+
 Education
 ------
 * **Ph.D.** Engineering (Artificial Intelligence), Dongguk University, Seoul, Korea (March 2019 ~ Februrary 2023)
@@ -32,4 +34,4 @@ Professional Experience
   * Taught computer science and software engineering courses
   * Supervised final year projects and contributed to the development of industry-relevant curriculam
     
-[Download CV here](http://tahirlee.github.io/files/cv_tahir.pdf)
+
