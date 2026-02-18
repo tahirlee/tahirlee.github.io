@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an Assistant Professor in the Division of Electronics and Electrical Engineering at Dongguk University, Seoul, Korea, where my research focuses on the intersection of Agentic AI, multimodal reasoning, and trustworthy machine intelligence. I received my Ph.D. in Artificial Intelligence from Dongguk University in 2023 under the supervision of Prof. Kang Ryoung Park. Prior to my current role, I gained industry experience as a Machine Learning Engineer at AirFi, Barcelona, Spain, and served as a Lecturer at Superior University, Lahore, Pakistan. My research focuses on retrieval-augmented generation, hallucination analysis, tool-calling evaluation, and autonomous AI decision-making, with applications in computational pathology, gastrointestinal image analysis, and robot-assisted surgery.
+I am an Assistant Professor in the Division of Electronics and Electrical Engineering at Dongguk University, Seoul, Korea. Prior to my current role, I gained industry experience as a Machine Learning Engineer at AirFi, Barcelona, Spain, and served as a Lecturer at Superior University, Lahore, Pakistan. My research focuses on the intersection of Agentic AI, multimodal reasoning, and trustworthy machine intelligence, with applications in computational pathology, gastrointestinal image analysis, and robot-assisted surgery.
 
 
 Recent Updates
