@@ -8,8 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-I am currently an Assistant Professor in the Division of Electronics and Electrical Engineering at Dongguk University, Seoul, Korea. I received my Ph.D. degree from Dongguk University in 2023 under the supervision of Prof. Kang Ryoung Park. From October 2017 to February 2018, I worked as a Machine Learning Engineer at AirFi, Barcelona, Spain. Prior to that, from April 2016 to September 2017, I served as a Lecturer in the Faculty of Computer Science and Information Technology at Superior University, Lahore, Pakistan.<br> My research interests focus on Agentic AI, multimodal reasoning, retrieval augmented generation, hallucination analysis, tool calling evaluation, and trustworthy enterprise AI, with application areas centered on medical image analysis, including computational pathology, gastrointestinal image analysis, and robot assisted surgery.<br>
-Email: tahirmahmood.cs@gmail.com, tahirmahmood@dongguk.edu
+I am an Assistant Professor in the Division of Electronics and Electrical Engineering at Dongguk University, Seoul, Korea, where I lead research at the intersection of Agentic AI, multimodal reasoning, and trustworthy machine intelligence. I received my Ph.D. in Artificial Intelligence from Dongguk University in 2023 under the supervision of Prof. Kang Ryoung Park. Prior to my current role, I gained industry experience as a Machine Learning Engineer at AirFi, Barcelona, Spain, and served as a Lecturer at Superior University, Lahore, Pakistan. My research focuses on retrieval-augmented generation, hallucination analysis, tool-calling evaluation, and autonomous AI decision-making, with applications in computational pathology, gastrointestinal image analysis, and robot-assisted surgery.
+
 
 Recent Updates
 ------
