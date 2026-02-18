@@ -14,15 +14,6 @@ Recent Updates
 ------
 * **2026.02.16.** Joined Advanced Multidisciplinary Engineering Journal (AMEJ) as Editorial Board Member.
 
-
-Research Interests 
-------
-Agentic AI, Multimodal Reasoning, RAG, Hallucination, Tool-Calling Evaluation & Trustworthy Enterprise AI
-
-Application Areas 
-------
-Medical Image Analysis, including Computational Pathology, Gastrointestinal Image Analysis, and Robot-Assisted Surgery
-
 Education
 ------
 * **Ph.D.** Engineering (Artificial Intelligence), Dongguk University, Seoul, Korea (March 2019 ~ Februrary 2023)
