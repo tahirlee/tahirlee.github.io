@@ -23,7 +23,6 @@ Representative Publications
   <br> **Tahir Mahmood**, Zeeshan Ullah, Atif Latif, Binish Arif Sultan, Muhammad Zubair, Zahid Ullah, AbuZar Ansari, Talat Zehra, Shahzad Ahmed, Naqqash Dilshad
 
 
-
 More articles in [Publications](https://tahirlee.github.io/publications/)
 
 For more info
