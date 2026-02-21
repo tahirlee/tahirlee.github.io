@@ -8,12 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-I am an Assistant Professor in the Division of Electronics and Electrical Engineering at Dongguk University, Seoul. Prior to my current role, I gained industry experience as a Machine Learning Engineer at AirFi, Barcelona, and served as a Lecturer at Superior University, Lahore. My research focuses on the intersection of Agentic AI, multimodal reasoning, and trustworthy machine intelligence, with applications in computational pathology, gastrointestinal image analysis, and robot assisted surgery.
+I am an Assistant Professor in the Division of Electronics and Electrical Engineering at Dongguk University, Seoul, South Korea. Prior to my current role, I gained industry experience as a Machine Learning Engineer at AirFi, Barcelona, Spain and served as a Lecturer at Superior University, Lahore, Pakistan. My research focuses on the intersection of Agentic AI, multimodal reasoning, and trustworthy machine intelligence, with applications in computational pathology, gastrointestinal image analysis, and robot assisted surgery.
 
 
 Recent Updates
 ------
-* **2026.02.16.** Joined Advanced Multidisciplinary Engineering Journal (AMEJ) as Editorial Board Member.
+* **2026.02.16.** Joined [Advanced Multidisciplinary Engineering Journal (AMEJ)](https://pub.scientificirg.com/index.php/AMEJ/Editorial_Team) as Editorial Board Member.
+
 
 Representative Publications
 ------
