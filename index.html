@@ -59,7 +59,7 @@
     .b-news { background:#e0f2fe; color:#0369a1; } .b-paper { background:var(--accent-l); color:var(--accent); } .b-award { background:#fef3c7; color:#92400e; } .b-talk { background:#f3e8ff; color:#6b21a8; } .b-service { background:#dcfce7; color:#166534; }
     #research { background:var(--bg2); }
     .research-intro { font-size:0.95rem; color:var(--text); font-weight:300; max-width:780px; margin-bottom:1rem; }
-    .interest-tags { display:flex; flex-wrap:wrap; gap:0.5rem; }
+    .interest-tags { display:flex; flex-wrap:wrap; gap:0.5rem; margin-bottom:3rem; }
     .interest-tag { font-size:0.74rem; font-weight:600; letter-spacing:0.04em; color:var(--accent); background:var(--accent-l); border-radius:4px; padding:0.3rem 0.75rem; }
     .axis-grid { display:grid; grid-template-columns:1fr 1fr; gap:1.6rem; margin-bottom:1.6rem; }
     .axis-card { background:var(--bg); border:1px solid var(--border); border-left:3px solid var(--accent); border-radius:6px; padding:1.5rem 1.6rem; }
@@ -263,18 +263,47 @@
   <div class="container">
     <div class="section-head">
       <h2 class="section-title">Research</h2>
-      <p class="section-sub">Interpretable and generalizable AI for multimodal medical data, autonomous clinical decision support, and physics-informed modelling of physical systems.</p>
+      <p class="section-sub">Trustworthy AI under deployment constraints, applied to medical imaging and aerial and drone imagery.</p>
     </div>
-    <p class="research-intro">My work builds AI methods for multimodal medical data analysis, combining imaging with clinical text to improve diagnostic accuracy and support surgical decision-making. Current directions extend this toward agentic AI systems, where coordinated agents reason autonomously and transparently over clinical data, and toward physics-informed neural networks that embed governing physical equations directly into learning.</p>
+    <div class="axis-grid">
+      <div class="axis-card">
+        <div class="axis-label">Axis 1 · Trust</div>
+        <div class="axis-title">Uncertainty &amp; Explainability</div>
+        <p class="axis-desc">Whether a model knows when it is wrong, and whether it can say why. Calibration and conformal prediction, separating epistemic from aleatoric uncertainty, out-of-distribution detection, and selective prediction that defers to a human rather than guessing. On the explainability side, faithful explanation: concept-based and language-grounded reasoning that can be checked against the evidence, rather than post-hoc saliency that merely looks convincing.</p>
+        <div class="interest-tags" style="margin-bottom:0;">
+          <span class="interest-tag">Calibration</span>
+          <span class="interest-tag">Conformal Prediction</span>
+          <span class="interest-tag">OOD Detection</span>
+          <span class="interest-tag">Selective Prediction</span>
+          <span class="interest-tag">Faithful Explanation</span>
+        </div>
+      </div>
+      <div class="axis-card">
+        <div class="axis-label">Axis 2 · Deployment</div>
+        <div class="axis-title">Edge AI &amp; Challenging Environments</div>
+        <p class="axis-desc">Whether a model works at all where it is needed. Efficient architectures for surgical carts, endoscopy systems, onboard drone processors, and consumer devices, where on-device inference also keeps sensitive data from leaving the site. Alongside this, robustness to the conditions real data arrives in: scanner and stain variation, motion blur, occlusion, smoke, altitude and viewpoint change, and scenes never represented in training.</p>
+        <div class="interest-tags" style="margin-bottom:0;">
+          <span class="interest-tag">Edge AI</span>
+          <span class="interest-tag">Model Compression</span>
+          <span class="interest-tag">Low-Resource Settings</span>
+          <span class="interest-tag">Domain Generalization</span>
+          <span class="interest-tag">On-Device Privacy</span>
+        </div>
+      </div>
+    </div>
+    <div class="axis-intersect">
+      <strong>The intersection is where the open problems are.</strong> Uncertainty is studied on well-resourced models, and efficiency is studied while measuring only accuracy. But compression degrades trust disproportionately: quantization and distillation damage calibration, and pruned models often fail hardest on the cases that were already underrepresented. Calibrated uncertainty inside a model small enough to run on a clinical device, or faithful explanations that survive quantization, remain open, and that is where my group works.
+    </div>
+    <div class="sub-label">Application Areas</div>
     <div class="interest-tags">
-      <span class="interest-tag">Agentic AI</span>
       <span class="interest-tag">Computational Pathology</span>
-      <span class="interest-tag">Medical Image Segmentation</span>
-      <span class="interest-tag">Robot-Assisted Surgery</span>
-      <span class="interest-tag">Multimodal LLMs</span>
-      <span class="interest-tag">Physics-Informed Neural Networks</span>
-      <span class="interest-tag">AI-PHM &amp; Physical AI</span>
+      <span class="interest-tag">Surgical Instrument Segmentation</span>
+      <span class="interest-tag">Endoscopic &amp; Colorectal Screening</span>
+      <span class="interest-tag">Aerial &amp; Drone Imagery</span>
+      <span class="interest-tag">Urban Safety Monitoring</span>
       <span class="interest-tag">Precision Agriculture</span>
+      <span class="interest-tag">Agentic AI</span>
+      <span class="interest-tag">Physics-Informed Neural Networks</span>
     </div>
     <div class="sub-label">Current Research Projects</div>
     <div class="project-grid">
