@@ -4,6 +4,7 @@
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Tahir Mahmood — Dongguk University</title>
+  <meta name="description" content="Tahir Mahmood — Assistant Professor, Division of Electronics and Electrical Engineering, Dongguk University, Seoul. Research on agentic AI, multimodal medical image analysis, and physics-informed neural networks."/>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Libre+Franklin:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
@@ -14,10 +15,10 @@
     body { background:var(--bg); color:var(--text); font-family:'Libre Franklin',sans-serif; font-size:16px; line-height:1.75; }
     nav { position:sticky; top:0; z-index:100; background:var(--bg); border-bottom:1px solid var(--border); }
     .nav-inner { max-width:1080px; margin:0 auto; padding:0 2rem; display:flex; align-items:center; justify-content:space-between; height:62px; }
-    .nav-logo { font-family:'EB Garamond',serif; font-size:1.1rem; font-weight:500; color:var(--text); text-decoration:none; display:flex; align-items:center; gap:0.7rem; }
+    .nav-logo { font-family:'EB Garamond',serif; font-size:1.1rem; font-weight:500; color:var(--text); text-decoration:none; display:flex; align-items:center; gap:0.7rem; white-space:nowrap; }
     .nav-seal { width:34px; height:34px; border-radius:50%; background:var(--accent); display:flex; align-items:center; justify-content:center; color:#fff; font-size:0.78rem; font-weight:700; flex-shrink:0; }
     .nav-links { display:flex; list-style:none; }
-    .nav-links a { display:block; padding:0 0.85rem; height:62px; line-height:62px; color:var(--muted); text-decoration:none; font-size:0.75rem; font-weight:600; letter-spacing:0.06em; text-transform:uppercase; border-bottom:2px solid transparent; transition:color .2s,border-color .2s; }
+    .nav-links a { display:block; padding:0 0.6rem; height:62px; line-height:62px; color:var(--muted); text-decoration:none; font-size:0.715rem; font-weight:600; letter-spacing:0.05em; text-transform:uppercase; border-bottom:2px solid transparent; transition:color .2s,border-color .2s; }
     .nav-links a:hover { color:var(--accent); border-bottom-color:var(--accent); }
     .hamburger { display:none; flex-direction:column; gap:5px; cursor:pointer; background:none; border:none; padding:4px; }
     .hamburger span { display:block; width:22px; height:2px; background:var(--text); border-radius:2px; }
@@ -33,13 +34,15 @@
     .hero h1 { font-family:'EB Garamond',serif; font-size:clamp(2rem,4vw,3rem); font-weight:500; line-height:1.15; margin-bottom:0.3rem; }
     .hero-role { color:var(--muted); font-size:0.95rem; font-weight:300; margin-bottom:0.2rem; }
     .hero-inst { font-family:'EB Garamond',serif; font-size:1rem; font-style:italic; color:var(--muted); margin-bottom:1.4rem; }
-    .hero-bio { font-size:0.93rem; font-weight:300; color:var(--text); max-width:600px; margin-bottom:1.8rem; line-height:1.75; }
+    .hero-bio { font-size:0.93rem; font-weight:300; color:var(--text); max-width:620px; margin-bottom:1.8rem; line-height:1.75; }
     .social-links { display:flex; flex-wrap:wrap; gap:0.6rem; }
     .social-link { display:inline-flex; align-items:center; gap:0.4rem; padding:0.38rem 0.9rem; border:1.5px solid var(--border); border-radius:4px; font-size:0.75rem; font-weight:600; letter-spacing:0.05em; text-transform:uppercase; color:var(--muted); text-decoration:none; transition:border-color .2s,color .2s; }
     .social-link:hover { border-color:var(--accent); color:var(--accent); }
     section { padding:4.5rem 0; border-bottom:1px solid var(--border); }
     .section-head { margin-bottom:2.5rem; }
     .section-title { font-family:'EB Garamond',serif; font-size:clamp(1.5rem,3vw,2.1rem); font-weight:500; line-height:1.2; }
+    .section-sub { font-size:0.9rem; color:var(--muted); margin-top:0.4rem; max-width:720px; }
+    .sub-label { font-family:'EB Garamond',serif; font-size:1rem; font-weight:600; font-style:italic; color:var(--muted); padding-bottom:0.4rem; border-bottom:1px solid var(--border); margin-bottom:1.2rem; }
     #updates { background:var(--bg); }
     .updates-list { display:flex; flex-direction:column; }
     .update-item { display:grid; grid-template-columns:130px 1fr; gap:1.2rem; padding:0.95rem 0; border-bottom:1px solid var(--border); align-items:baseline; }
@@ -50,7 +53,19 @@
     .update-text a:hover { text-decoration:underline; }
     .u-badge { display:inline-block; font-size:0.62rem; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; padding:0.1rem 0.42rem; border-radius:3px; margin-right:0.35rem; vertical-align:middle; }
     .b-news { background:#e0f2fe; color:#0369a1; } .b-paper { background:var(--accent-l); color:var(--accent); } .b-award { background:#fef3c7; color:#92400e; } .b-talk { background:#f3e8ff; color:#6b21a8; } .b-service { background:#dcfce7; color:#166534; }
-    #publications { background:var(--bg2); }
+    #research { background:var(--bg2); }
+    .research-intro { font-size:0.95rem; color:var(--text); font-weight:300; max-width:780px; margin-bottom:1rem; }
+    .interest-tags { display:flex; flex-wrap:wrap; gap:0.5rem; margin-bottom:3rem; }
+    .interest-tag { font-size:0.74rem; font-weight:600; letter-spacing:0.04em; color:var(--accent); background:var(--accent-l); border-radius:4px; padding:0.3rem 0.75rem; }
+    .project-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:1.2rem; }
+    .project-card { border:1px solid var(--border); border-radius:8px; background:var(--bg); padding:1.6rem; display:flex; flex-direction:column; transition:border-color .2s,box-shadow .2s; }
+    .project-card:hover { border-color:var(--accent); box-shadow:0 2px 14px rgba(26,58,107,.07); }
+    .project-icon { font-size:1.6rem; margin-bottom:0.7rem; }
+    .project-tag { font-size:0.66rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:var(--red); margin-bottom:0.5rem; }
+    .project-title { font-family:'EB Garamond',serif; font-size:1.1rem; font-weight:600; color:var(--text); margin-bottom:0.6rem; line-height:1.35; }
+    .project-desc { font-size:0.85rem; color:var(--muted); line-height:1.65; }
+    .project-meta { font-size:0.76rem; color:var(--muted2); font-style:italic; margin-top:0.8rem; }
+    #publications { background:var(--bg); }
     .pub-year-group { margin-bottom:2rem; }
     .pub-year-label { font-family:'EB Garamond',serif; font-size:1.3rem; font-weight:600; color:var(--accent); border-bottom:1px solid var(--border); padding-bottom:0.4rem; margin-bottom:1rem; }
     .pub-item { display:grid; grid-template-columns:28px 1fr auto; gap:0.8rem 1rem; align-items:start; padding:1rem 0; border-bottom:1px dashed var(--border); }
@@ -60,29 +75,60 @@
     .pub-authors { font-size:0.83rem; color:var(--muted); margin-bottom:0.15rem; }
     .pub-venue { font-size:0.82rem; font-style:italic; color:var(--muted); }
     .pub-venue .journal { font-weight:600; color:var(--text); }
+    .if-badge { display:inline-block; font-style:normal; font-size:0.64rem; font-weight:700; letter-spacing:0.04em; color:var(--accent); background:var(--accent-l); border-radius:3px; padding:0.08rem 0.4rem; margin-left:0.4rem; vertical-align:middle; }
     .pub-pdf { font-size:0.72rem; font-weight:700; letter-spacing:0.05em; text-transform:uppercase; color:var(--accent); text-decoration:none; white-space:nowrap; padding-top:0.15rem; border-bottom:1px solid transparent; transition:border-color .2s; }
     .pub-pdf:hover { border-bottom-color:var(--accent); }
     .pub-stats { display:flex; gap:1.5rem; margin-bottom:2rem; flex-wrap:wrap; }
-    .pub-stat-box { background:var(--bg); border:1px solid var(--border); border-radius:6px; padding:0.9rem 1.4rem; text-align:center; }
+    .pub-stat-box { background:var(--bg2); border:1px solid var(--border); border-radius:6px; padding:0.9rem 1.4rem; text-align:center; }
     .pub-stat-num { font-family:'EB Garamond',serif; font-size:1.8rem; color:var(--accent); font-weight:500; line-height:1; }
     .pub-stat-label { font-size:0.73rem; color:var(--muted); margin-top:0.2rem; font-weight:500; }
-    #education { background:var(--bg); }
-    .edu-list { display:flex; flex-direction:column; }
-    .edu-item { display:grid; grid-template-columns:160px 1fr; gap:1rem; padding:1.2rem 0; border-bottom:1px solid var(--border); align-items:start; }
-    .edu-item:first-child { border-top:1px solid var(--border); }
-    .edu-period { font-size:0.8rem; color:var(--muted2); font-weight:500; padding-top:0.2rem; }
+    #experience { background:var(--bg2); }
+    .exp-item { display:grid; grid-template-columns:175px 1fr; gap:1.4rem; padding:1.6rem 0; border-bottom:1px solid var(--border); align-items:start; }
+    .exp-item:first-of-type { border-top:1px solid var(--border); }
+    .exp-period { font-size:0.8rem; color:var(--muted2); font-weight:600; padding-top:0.25rem; }
+    .exp-role { font-family:'EB Garamond',serif; font-size:1.12rem; font-weight:600; color:var(--text); }
+    .exp-inst { font-size:0.86rem; color:var(--muted); font-style:italic; margin-bottom:0.6rem; }
+    .exp-list { list-style:none; }
+    .exp-list li { font-size:0.87rem; color:var(--muted); line-height:1.65; padding-left:1rem; position:relative; margin-bottom:0.25rem; }
+    .exp-list li::before { content:"—"; position:absolute; left:0; color:var(--muted2); }
+    .edu-block { margin-top:3rem; }
+    .edu-item { display:grid; grid-template-columns:175px 1fr; gap:1.4rem; padding:1.3rem 0; border-bottom:1px solid var(--border); align-items:start; }
+    .edu-item:first-of-type { border-top:1px solid var(--border); }
+    .edu-period { font-size:0.8rem; color:var(--muted2); font-weight:600; padding-top:0.2rem; }
     .edu-degree { font-family:'EB Garamond',serif; font-size:1.05rem; font-weight:600; color:var(--text); }
-    .edu-inst { font-size:0.87rem; color:var(--muted); }
-    #teaching { background:var(--bg2); }
+    .edu-inst { font-size:0.86rem; color:var(--muted); }
+    .edu-detail { font-size:0.82rem; color:var(--muted2); margin-top:0.25rem; line-height:1.6; }
+    #teaching { background:var(--bg); }
     .teaching-item { display:grid; grid-template-columns:150px 1fr; gap:1rem; padding:1.3rem 0; border-bottom:1px solid var(--border); align-items:start; }
-    .teaching-item:first-child { border-top:1px solid var(--border); }
+    .teaching-item:first-of-type { border-top:1px solid var(--border); }
     .teaching-meta { display:flex; flex-direction:column; gap:0.3rem; padding-top:0.1rem; }
     .teaching-year { font-size:0.8rem; color:var(--muted2); font-weight:600; }
     .teaching-type { font-size:0.68rem; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; background:var(--accent-l); color:var(--accent); padding:0.15rem 0.5rem; border-radius:3px; width:fit-content; }
     .teaching-course { font-family:'EB Garamond',serif; font-size:1.05rem; font-weight:600; color:var(--text); margin-bottom:0.2rem; }
     .teaching-inst { font-size:0.83rem; color:var(--muted); font-style:italic; margin-bottom:0.35rem; }
     .teaching-desc { font-size:0.85rem; color:var(--muted); line-height:1.6; }
-    #team { background:var(--bg); }
+    .supervision-note { background:var(--bg2); border:1px solid var(--border); border-radius:8px; padding:1.3rem 1.6rem; margin-top:2rem; font-size:0.88rem; color:var(--muted); line-height:1.7; }
+    .supervision-note strong { color:var(--text); font-weight:600; }
+    #service { background:var(--bg2); }
+    .service-grid { display:grid; grid-template-columns:1fr 1fr; gap:3rem; align-items:start; }
+    .service-list { list-style:none; margin-bottom:2.2rem; }
+    .service-list li { font-size:0.88rem; color:var(--muted); line-height:1.6; padding:0.55rem 0 0.55rem 1.1rem; border-bottom:1px solid var(--border); position:relative; }
+    .service-list li::before { content:"·"; position:absolute; left:0.2rem; color:var(--accent); font-weight:700; }
+    .service-list li strong { color:var(--text); font-weight:600; }
+    .service-list li em { color:var(--muted2); }
+    .award-item { padding:0.7rem 0; border-bottom:1px solid var(--border); }
+    .award-title { font-size:0.9rem; color:var(--text); font-weight:600; }
+    .award-detail { font-size:0.83rem; color:var(--muted); line-height:1.6; }
+    #skills { background:var(--bg); }
+    .skill-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:1.2rem 2.5rem; }
+    .skill-group-label { font-size:0.72rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:var(--accent); margin-bottom:0.7rem; }
+    .skill-row { display:flex; align-items:baseline; gap:0.6rem; padding:0.35rem 0; border-bottom:1px solid var(--border); }
+    .skill-level { font-size:0.62rem; font-weight:700; letter-spacing:0.06em; text-transform:uppercase; border-radius:3px; padding:0.08rem 0.4rem; white-space:nowrap; }
+    .lvl-expert { background:var(--accent-l); color:var(--accent); }
+    .lvl-inter { background:var(--bg3); color:var(--muted); }
+    .skill-name { font-size:0.85rem; color:var(--muted); }
+    .skill-name b { color:var(--text); font-weight:600; }
+    #team { background:var(--bg2); }
     .team-group { margin-bottom:2.5rem; }
     .team-group-label { font-family:'EB Garamond',serif; font-size:1rem; font-weight:600; font-style:italic; color:var(--muted); padding-bottom:0.4rem; border-bottom:1px solid var(--border); margin-bottom:1.2rem; }
     .member-card { display:grid; grid-template-columns:56px 1fr; gap:1.2rem; padding:1.2rem; border:1px solid var(--border); border-radius:8px; margin-bottom:0.8rem; transition:border-color .2s,box-shadow .2s; background:var(--bg); }
@@ -95,13 +141,7 @@
     .member-links { display:flex; gap:0.5rem; flex-wrap:wrap; }
     .member-link { font-size:0.72rem; font-weight:600; letter-spacing:0.04em; color:var(--accent); text-decoration:none; border:1px solid var(--border); padding:0.2rem 0.6rem; border-radius:4px; transition:border-color .2s; }
     .member-link:hover { border-color:var(--accent); }
-    #project { background:var(--bg2); }
-    .project-card { border:1px solid var(--border); border-radius:8px; overflow:hidden; display:grid; grid-template-columns:260px 1fr; }
-    .project-img { background:var(--bg3); display:flex; align-items:center; justify-content:center; font-size:3rem; min-height:160px; }
-    .project-body { padding:2rem; }
-    .project-tag { font-size:0.68rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:var(--red); margin-bottom:0.6rem; }
-    .project-title { font-family:'EB Garamond',serif; font-size:1.2rem; font-weight:600; color:var(--text); margin-bottom:0.6rem; }
-    .project-desc { font-size:0.88rem; color:var(--muted); line-height:1.65; }
+    .collab-grid { display:grid; grid-template-columns:1fr 1fr; gap:0.8rem; }
     #contact { background:var(--bg); }
     .contact-grid { display:grid; grid-template-columns:1fr 1fr; gap:4rem; align-items:start; }
     .contact-block { margin-bottom:1.6rem; }
@@ -120,8 +160,9 @@
     .footer-links { display:flex; gap:1.4rem; }
     .footer-links a { color:rgba(255,255,255,.6); text-decoration:none; font-size:0.78rem; font-weight:500; transition:color .2s; }
     .footer-links a:hover { color:#fff; }
-    @media(max-width:820px) { .hero-inner { grid-template-columns:1fr; gap:2rem; padding:3rem 2rem; } .profile-photo,.profile-placeholder { width:130px; height:130px; } .contact-grid { grid-template-columns:1fr; gap:2rem; } .project-card { grid-template-columns:1fr; } .project-img { min-height:120px; } .teaching-item { grid-template-columns:1fr; gap:0.4rem; } }
-    @media(max-width:640px) { .nav-links { display:none; } .hamburger { display:flex; } .pub-item { grid-template-columns:24px 1fr; } .pub-pdf { grid-column:2; } .edu-item,.update-item { grid-template-columns:1fr; gap:0.15rem; } .member-card { grid-template-columns:44px 1fr; gap:0.8rem; } }
+    @media(max-width:980px) { .project-grid { grid-template-columns:1fr; } .collab-grid { grid-template-columns:1fr; } }
+    @media(max-width:820px) { .hero-inner { grid-template-columns:1fr; gap:2rem; padding:3rem 2rem; } .profile-photo,.profile-placeholder { width:130px; height:130px; } .contact-grid { grid-template-columns:1fr; gap:2rem; } .service-grid { grid-template-columns:1fr; gap:2rem; } .skill-grid { grid-template-columns:1fr; } .teaching-item { grid-template-columns:1fr; gap:0.4rem; } .exp-item,.edu-item { grid-template-columns:1fr; gap:0.4rem; } }
+    @media(max-width:640px) { .nav-links { display:none; } .hamburger { display:flex; } .pub-item { grid-template-columns:24px 1fr; } .pub-pdf { grid-column:2; } .update-item { grid-template-columns:1fr; gap:0.15rem; } .member-card { grid-template-columns:44px 1fr; gap:0.8rem; } }
     @keyframes fadeUp { from { opacity:0; transform:translateY(16px); } to { opacity:1; transform:translateY(0); } }
     .hero-inner > * { opacity:0; animation:fadeUp .6s ease forwards; }
     .hero-inner > *:nth-child(1) { animation-delay:.05s; }
@@ -134,11 +175,13 @@
     <a href="#" class="nav-logo"><div class="nav-seal">TM</div>Tahir Mahmood</a>
     <ul class="nav-links">
       <li><a href="#updates">Updates</a></li>
+      <li><a href="#research">Research</a></li>
       <li><a href="#publications">Publications</a></li>
-      <li><a href="#education">Education</a></li>
+      <li><a href="#experience">Experience</a></li>
       <li><a href="#teaching">Teaching</a></li>
+      <li><a href="#service">Service</a></li>
+      <li><a href="#skills">Skills</a></li>
       <li><a href="#team">Team</a></li>
-      <li><a href="#project">Project</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
     <button class="hamburger" onclick="toggleMenu()" aria-label="Menu"><span></span><span></span><span></span></button>
@@ -146,11 +189,13 @@
 </nav>
 <div class="mobile-menu" id="mobileMenu">
   <a href="#updates">Updates</a>
+  <a href="#research">Research</a>
   <a href="#publications">Publications</a>
-  <a href="#education">Education</a>
+  <a href="#experience">Experience &amp; Education</a>
   <a href="#teaching">Teaching</a>
+  <a href="#service">Service &amp; Awards</a>
+  <a href="#skills">Skills</a>
   <a href="#team">Team</a>
-  <a href="#project">Project</a>
   <a href="#contact">Contact</a>
 </div>
 <div class="hero">
@@ -163,7 +208,7 @@
       <h1>Tahir Mahmood</h1>
       <div class="hero-role">Assistant Professor</div>
       <div class="hero-inst">Division of Electronics &amp; Electrical Engineering, Dongguk University</div>
-      <p class="hero-bio">Welcome! I am an Assistant Professor at Dongguk University, Seoul, South Korea. Before joining Dongguk, I worked as a Machine Learning Engineer at AirFi in Barcelona, Spain, and as a Lecturer at Superior University in Lahore, Pakistan. My research bridges Agentic AI, multimodal reasoning, and trustworthy machine intelligence, with applications in computational pathology, gastrointestinal image analysis, and robot-assisted surgery — where intelligent systems can meaningfully advance clinical outcomes.</p>
+      <p class="hero-bio">Welcome! I am an Assistant Professor at Dongguk University, Seoul, South Korea. My research develops artificial intelligence methods for multimodal medical data analysis — particularly imaging together with clinical text — with a focus on interpretable, generalizable models that improve diagnostic accuracy, support surgical decisions, and enhance patient outcomes. More recently I have been working on <strong>Agentic AI</strong> systems in which coordinated agents enable autonomous, transparent, and reliable clinical decision support, and on <strong>Physics-Informed Neural Networks</strong> for chemo-mechanical simulation, bridging AI with physical system modelling for AI-PHM and Physical AI applications. Before joining Dongguk, I worked as a Machine Learning Engineer at AirFi in Barcelona, Spain, and as a Lecturer at Superior University in Lahore, Pakistan.</p>
       <div class="social-links">
         <a href="mailto:tahirmahmood@dongguk.edu" class="social-link">✉ Email</a>
         <a href="https://scholar.google.com/citations?user=9utniCgAAAAJ&hl=en" target="_blank" class="social-link">📚 Scholar</a>
@@ -184,11 +229,64 @@
       </div>
       <div class="update-item">
         <div class="update-date">2025</div>
-        <div class="update-text"><span class="u-badge b-paper">Paper</span>"A lightweight hierarchical feature fusion network for surgical instrument segmentation" accepted in <em>Information Fusion</em>.</div>
+        <div class="update-text"><span class="u-badge b-paper">Paper</span>"A lightweight hierarchical feature fusion network for surgical instrument segmentation" accepted in <em>Information Fusion</em> (IF 15.5).</div>
+      </div>
+      <div class="update-item">
+        <div class="update-date">2025</div>
+        <div class="update-text"><span class="u-badge b-news">Project</span>New project launched on <strong>Physics-Informed Neural Networks</strong> for coupled lithium diffusion and stress simulation in battery particles.</div>
+      </div>
+      <div class="update-item">
+        <div class="update-date">Aug 2024</div>
+        <div class="update-text"><span class="u-badge b-award">Award</span>Received the <strong>Best Lecture</strong> award from the ACM Student Chapter at the 2024 ACM Internal Level Refresher Course, SRM Institute of Science and Technology, India.</div>
       </div>
       <div class="update-item">
         <div class="update-date">2024</div>
         <div class="update-text"><span class="u-badge b-paper">Paper</span>"A novel convolution transformer-based network for histopathology-image classification" accepted in <em>Engineering Applications of Artificial Intelligence</em>.</div>
+      </div>
+      <div class="update-item">
+        <div class="update-date">2023 – Present</div>
+        <div class="update-text"><span class="u-badge b-service">Service</span>Team Member, <strong>BK21 FOUR</strong> (Next-Generation Mobile and Applied Technology Expert Training Team), funded by the National Research Foundation of Korea.</div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="research">
+  <div class="container">
+    <div class="section-head">
+      <h2 class="section-title">Research</h2>
+      <p class="section-sub">Interpretable and generalizable AI for multimodal medical data, autonomous clinical decision support, and physics-informed modelling of physical systems.</p>
+    </div>
+    <p class="research-intro">My work builds AI methods for multimodal medical data analysis, combining imaging with clinical text to improve diagnostic accuracy and support surgical decision-making. Current directions extend this toward agentic AI systems, where coordinated agents reason autonomously and transparently over clinical data, and toward physics-informed neural networks that embed governing physical equations directly into learning.</p>
+    <div class="interest-tags">
+      <span class="interest-tag">Agentic AI</span>
+      <span class="interest-tag">Computational Pathology</span>
+      <span class="interest-tag">Medical Image Segmentation</span>
+      <span class="interest-tag">Robot-Assisted Surgery</span>
+      <span class="interest-tag">Multimodal LLMs</span>
+      <span class="interest-tag">Physics-Informed Neural Networks</span>
+      <span class="interest-tag">AI-PHM &amp; Physical AI</span>
+      <span class="interest-tag">Precision Agriculture</span>
+    </div>
+    <div class="sub-label">Current Research Projects</div>
+    <div class="project-grid">
+      <div class="project-card">
+        <div class="project-icon">🔬</div>
+        <div class="project-tag">Agentic AI · Consumer Electronics</div>
+        <div class="project-title">Agentic AI for Autonomous and Interpretable Colorectal Polyp Segmentation</div>
+        <p class="project-desc">A consumer-electronics-oriented agentic AI framework for polyp segmentation and clinical decision support, designed to operate across hospital workstations, mobile devices, and patient-facing consumer electronics.</p>
+      </div>
+      <div class="project-card">
+        <div class="project-icon">🧬</div>
+        <div class="project-tag">Segmentation · Multimodal LLM</div>
+        <div class="project-title">Adaptive Edge and Context Fusion with Language-Informed Diagnostic Reasoning</div>
+        <p class="project-desc">EMCAF-Net, an Edge-Aware Multi-Scale Contextual Attention Fusion Network for accurate cell nuclei segmentation in cancer diagnosis, integrating edge-aware multi-scale fusion for boundary localization with a multimodal LLM for automated diagnostic reasoning.</p>
+      </div>
+      <div class="project-card">
+        <div class="project-icon">🔋</div>
+        <div class="project-tag">Physics-Informed ML</div>
+        <div class="project-title">PINNs for Coupled Lithium Diffusion and Stress Simulation in Battery Particles</div>
+        <p class="project-desc">A physics-informed neural network framework for the coupled chemo-mechanical PDEs governing lithium transport and stress evolution in battery electrode particles, replacing traditional finite element methods. Anisotropic, SOC-dependent diffusivity tensors derived from molecular dynamics simulations are embedded as inputs, enabling accurate modelling of irregular particle geometries from X-ray tomography data.</p>
+        <div class="project-meta">In collaboration with Dr. Ijaz</div>
       </div>
     </div>
   </div>
@@ -208,12 +306,21 @@
         <div>
           <div class="pub-title"><span class="me">Tahir Mahmood</span>, Ganbayar Batchuluun, Seung Gu Kim, Jung Soo Kim, Kang Ryoung Park</div>
           <div class="pub-authors">"A lightweight hierarchical feature fusion network for surgical instrument segmentation in internet of medical things."</div>
-          <div class="pub-venue"><span class="journal">Information Fusion</span>, 2025.</div>
+          <div class="pub-venue"><span class="journal">Information Fusion</span>, 2025.<span class="if-badge">IF 15.5</span></div>
         </div>
         <a href="https://www.sciencedirect.com/science/article/pii/S1566253525003768" target="_blank" class="pub-pdf">Link ↗</a>
       </div>
       <div class="pub-item">
         <div class="pub-num">2</div>
+        <div>
+          <div class="pub-title">Naqqash Dilshad, Sana Parez, Samee Ullah Khan, Mustaqeem Khan, <span class="me">Tahir Mahmood</span>, Norah Saleh Alghamdi, JaeSeung Song</div>
+          <div class="pub-authors">"YOLOFlame: Benchmarking vehicle fire and smoke detection in urban environments."</div>
+          <div class="pub-venue"><span class="journal">Alexandria Engineering Journal</span>, 2025.<span class="if-badge">IF 6.8</span></div>
+        </div>
+        <span></span>
+      </div>
+      <div class="pub-item">
+        <div class="pub-num">3</div>
         <div>
           <div class="pub-title">Faiqa Maqsood, Zhenfei Wang, Muhammad Mumtaz Ali, Baozhi Qiu, <span class="me">Tahir Mahmood</span>, Raheem Sarwar</div>
           <div class="pub-authors">"An efficient enhanced feature framework for grading of renal cell carcinoma using histopathological images."</div>
@@ -238,7 +345,7 @@
         <div>
           <div class="pub-title"><span class="me">Tahir Mahmood</span>, Abdul Wahid, Jin Seong Hong, Seung Gu Kim, Kang Ryoung Park</div>
           <div class="pub-authors">"A novel convolution transformer-based network for histopathology-image classification using adaptive convolution and dynamic attention."</div>
-          <div class="pub-venue"><span class="journal">Engineering Applications of Artificial Intelligence</span>, 2024.</div>
+          <div class="pub-venue"><span class="journal">Engineering Applications of Artificial Intelligence</span>, 2024.<span class="if-badge">IF 8.0</span></div>
         </div>
         <span></span>
       </div>
@@ -247,16 +354,16 @@
         <div>
           <div class="pub-title">Abdul Wahid, <span class="me">Tahir Mahmood</span>, Jin Seong Hong, Seung Gu Kim, et al.</div>
           <div class="pub-authors">"Multi-path residual attention network for cancer diagnosis robust to limited hyperspectral pathological training data."</div>
-          <div class="pub-venue"><span class="journal">Engineering Applications of Artificial Intelligence</span>, 2024.</div>
+          <div class="pub-venue"><span class="journal">Engineering Applications of Artificial Intelligence</span>, 2024.<span class="if-badge">IF 8.0</span></div>
         </div>
         <span></span>
       </div>
       <div class="pub-item">
         <div class="pub-num">4</div>
         <div>
-          <div class="pub-title">Muhammad Zubair et al., <span class="me">Tahir Mahmood</span></div>
+          <div class="pub-title">Muhammad Zubair, Muhammad Owais, <span class="me">Tahir Mahmood</span>, Saeed Iqbal, Syed Muhammad Usman, Irfan Hussain</div>
           <div class="pub-authors">"Enhanced gastric cancer classification and quantification interpretable framework using digital histopathology images."</div>
-          <div class="pub-venue"><span class="journal">Scientific Reports</span>, 2024.</div>
+          <div class="pub-venue"><span class="journal">Scientific Reports</span>, 2024.<span class="if-badge">IF 3.9</span></div>
         </div>
         <span></span>
       </div>
@@ -266,14 +373,23 @@
       <div class="pub-item">
         <div class="pub-num">1</div>
         <div>
-          <div class="pub-title"><span class="me">Tahir Mahmood</span>, Jin Seong Hong, Nadeem Ullah, Sung Jae Lee, Abdul Wahid, Kang Ryoung Park</div>
+          <div class="pub-title"><span class="me">Tahir Mahmood</span>, Seung Gu Kim, Se Hyun Nam, Kang Ryoung Park</div>
           <div class="pub-authors">"CFFR-Net: A channel-wise features fusion and recalibration network for surgical instruments segmentation."</div>
-          <div class="pub-venue"><span class="journal">Engineering Applications of Artificial Intelligence</span>, 2023.</div>
+          <div class="pub-venue"><span class="journal">Engineering Applications of Artificial Intelligence</span>, 2023.<span class="if-badge">IF 8.0</span></div>
         </div>
         <span></span>
       </div>
       <div class="pub-item">
         <div class="pub-num">2</div>
+        <div>
+          <div class="pub-title">Nadeem Ullah, <span class="me">Tahir Mahmood</span>, Seung Gu Kim, Se Hyun Nam, Haseeb Sultan, Kang Ryoung Park</div>
+          <div class="pub-authors">"DCDA-Net: Dual-convolutional dual-attention network for obstructive sleep apnea diagnosis from single-lead electrocardiograms."</div>
+          <div class="pub-venue"><span class="journal">Engineering Applications of Artificial Intelligence</span>, 2023.<span class="if-badge">IF 7.5</span></div>
+        </div>
+        <span></span>
+      </div>
+      <div class="pub-item">
+        <div class="pub-num">3</div>
         <div>
           <div class="pub-title"><span class="me">Tahir Mahmood</span>, Jiho Choi, Kang Ryoung Park</div>
           <div class="pub-authors">"Artificial intelligence-based classification of pollen grains using attention-guided pollen features aggregation network."</div>
@@ -289,7 +405,7 @@
         <div>
           <div class="pub-title"><span class="me">Tahir Mahmood</span>, Se Woon Cho, Kang Ryoung Park</div>
           <div class="pub-authors">"DSRD-Net: Dual-stream residual dense network for semantic segmentation of instruments in robot-assisted surgery."</div>
-          <div class="pub-venue"><span class="journal">Expert Systems with Applications</span>, 2022.</div>
+          <div class="pub-venue"><span class="journal">Expert Systems with Applications</span>, 2022.<span class="if-badge">IF 7.5</span></div>
         </div>
         <span></span>
       </div>
@@ -330,21 +446,73 @@
     <p style="font-size:0.87rem;color:var(--muted);margin-top:1rem;">Full list on <a href="https://scholar.google.com/citations?user=9utniCgAAAAJ&hl=en" target="_blank" style="color:var(--accent);text-decoration:none;font-weight:600;">Google Scholar ↗</a></p>
   </div>
 </section>
-<section id="education">
+<section id="experience">
   <div class="container">
-    <div class="section-head"><h2 class="section-title">Education</h2></div>
-    <div class="edu-list">
+    <div class="section-head"><h2 class="section-title">Experience &amp; Education</h2></div>
+    <div class="exp-item">
+      <div class="exp-period">Mar 2023 – Present</div>
+      <div>
+        <div class="exp-role">Assistant Professor</div>
+        <div class="exp-inst">Division of Electronics and Electrical Engineering, Dongguk University, Seoul, South Korea</div>
+        <ul class="exp-list">
+          <li>Teach graduate-level courses in Artificial Intelligence and Robot Vision, emphasizing agentic AI systems, real-world deployment, and challenge-based learning aligned with frontier AI research.</li>
+          <li>Supervise and mentor Master's and Ph.D. students in medical image analysis, precision agriculture, and agentic AI systems.</li>
+          <li>Team Member, BK21 FOUR — Brain Korea 21 (Next-Generation Mobile and Applied Technology Expert Training Team), funded by the National Research Foundation of Korea (NRF).</li>
+          <li>Thesis Evaluation Committee Member, Division of Electronics and Electrical Engineering.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="exp-item">
+      <div class="exp-period">Oct 2017 – Feb 2019</div>
+      <div>
+        <div class="exp-role">Machine Learning Engineer</div>
+        <div class="exp-inst">Air-Fi, Barcelona, Spain</div>
+        <ul class="exp-list">
+          <li>Contributed to the development and deployment of the AIR-FI Indoor Positioning System.</li>
+          <li>Analyzed data and gathered client requirements for system customization.</li>
+          <li>Built a web-based platform for system visualization and management using React/Node.js.</li>
+          <li>Conducted performance testing and troubleshooting, reducing latency in data processing.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="exp-item">
+      <div class="exp-period">Apr 2016 – Sep 2017</div>
+      <div>
+        <div class="exp-role">Lecturer</div>
+        <div class="exp-inst">Superior University, Lahore, Pakistan</div>
+        <ul class="exp-list">
+          <li>Delivered undergraduate courses in Computer Science and Software Engineering with a focus on practical, industry-relevant skills.</li>
+          <li>Contributed to curriculum development aligned with emerging technology trends.</li>
+          <li>Organized technical workshops and seminars; served on university academic committees.</li>
+          <li>Courses taught: Programming Fundamentals, Artificial Intelligence, Software Requirements Engineering, Project Management.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="edu-block">
+      <div class="sub-label">Education</div>
       <div class="edu-item">
-        <div class="edu-period">2019.03 – 2023.02</div>
-        <div><div class="edu-degree">Ph.D. in Engineering</div><div class="edu-inst">Dongguk University, Seoul, South Korea</div></div>
+        <div class="edu-period">Mar 2019 – Feb 2023</div>
+        <div>
+          <div class="edu-degree">Doctor of Engineering</div>
+          <div class="edu-inst">Division of Electronics and Electrical Engineering, Dongguk University, Seoul, South Korea</div>
+          <div class="edu-detail">Major: Multimedia Contents and Signal Processing · CGPA 3.8/4.0<br/>Dissertation: "A study on deep learning-based classification, detection, and segmentation for histopathology images."</div>
+        </div>
       </div>
       <div class="edu-item">
-        <div class="edu-period">2013.09 – 2015.08</div>
-        <div><div class="edu-degree">M.S. in Computer Science</div><div class="edu-inst">COMSATS University, Islamabad, Pakistan</div></div>
+        <div class="edu-period">2013 – 2015</div>
+        <div>
+          <div class="edu-degree">M.S. in Computer Science</div>
+          <div class="edu-inst">Department of Computer Science, COMSATS University, Islamabad, Pakistan</div>
+          <div class="edu-detail">CGPA 3.5/4.0<br/>Dissertation: "An automated mitosis recognition technique for breast cancer histopathology slide images."</div>
+        </div>
       </div>
       <div class="edu-item">
-        <div class="edu-period">2009.09 – 2013.08</div>
-        <div><div class="edu-degree">B.S. in Computer Science</div><div class="edu-inst">COMSATS University, Islamabad, Pakistan</div></div>
+        <div class="edu-period">2009 – 2013</div>
+        <div>
+          <div class="edu-degree">B.S. in Computer Science</div>
+          <div class="edu-inst">Department of Computer Science, COMSATS University, Islamabad, Pakistan</div>
+          <div class="edu-detail">CGPA 3.1/4.0<br/>Dissertation: "Intelligent warehouse management system."</div>
+        </div>
       </div>
     </div>
   </div>
@@ -355,82 +523,201 @@
     <div class="teaching-list">
       <div class="teaching-item">
         <div class="teaching-meta">
-          <span class="teaching-year">2024</span>
-          <span class="teaching-type">Undergraduate</span>
+          <span class="teaching-year">2023 – Present</span>
+          <span class="teaching-type">Graduate</span>
         </div>
         <div class="teaching-body">
-          <div class="teaching-course">Introduction to Artificial Intelligence</div>
+          <div class="teaching-course">Artificial Intelligence</div>
           <div class="teaching-inst">Dongguk University</div>
-          <div class="teaching-desc">Fundamental concepts of AI including search, knowledge representation, machine learning, and neural networks.</div>
+          <div class="teaching-desc">Graduate-level AI with an emphasis on agentic AI systems, real-world deployment, and challenge-based learning aligned with frontier AI research.</div>
         </div>
       </div>
       <div class="teaching-item">
         <div class="teaching-meta">
-          <span class="teaching-year">2024</span>
+          <span class="teaching-year">2023 – Present</span>
           <span class="teaching-type">Graduate</span>
         </div>
         <div class="teaching-body">
-          <div class="teaching-course">Deep Learning for Medical Image Analysis</div>
+          <div class="teaching-course">Robot Vision</div>
           <div class="teaching-inst">Dongguk University</div>
-          <div class="teaching-desc">Advanced deep learning techniques applied to medical imaging tasks including segmentation, classification, and detection.</div>
+          <div class="teaching-desc">Visual perception for robotic systems, covering representation, detection and segmentation, and the deployment of vision pipelines in real environments.</div>
         </div>
+      </div>
+      <div class="teaching-item">
+        <div class="teaching-meta">
+          <span class="teaching-year">2016 – 2017</span>
+          <span class="teaching-type">Undergraduate</span>
+        </div>
+        <div class="teaching-body">
+          <div class="teaching-course">Programming Fundamentals · Artificial Intelligence · Software Requirements Engineering · Project Management</div>
+          <div class="teaching-inst">Superior University, Lahore</div>
+          <div class="teaching-desc">Undergraduate courses in Computer Science and Software Engineering, focused on practical, industry-relevant skills.</div>
+        </div>
+      </div>
+    </div>
+    <div class="supervision-note">
+      <strong>Student supervision.</strong> Currently supervising <strong>2 Ph.D.</strong> and <strong>3 Master's</strong> students working on medical image analysis, precision agriculture, and agentic AI systems. Also serving as a Thesis Evaluation Committee Member in the Division of Electronics and Electrical Engineering.
+    </div>
+  </div>
+</section>
+<section id="service">
+  <div class="container">
+    <div class="section-head"><h2 class="section-title">Academic Service &amp; Awards</h2></div>
+    <div class="service-grid">
+      <div>
+        <div class="sub-label">Editorial Roles</div>
+        <ul class="service-list">
+          <li><strong>Editorial Board Member</strong> — Advanced Multidisciplinary Engineering Journal (AMEJ)</li>
+          <li><strong>Guest Editor</strong> — <em>Artificial Intelligence in Medical Image Analysis and Clinical Decision Support</em>, Diagnostics, MDPI</li>
+          <li><strong>Guest Editor</strong> — <em>Next-Generation Medical Imaging AI: Deep Learning, Computer Vision with Multi-Task and Continual Learning</em>, AI, MDPI</li>
+          <li><strong>Guest Editor</strong> — <em>Latest News in Digital Pathology</em>, Diagnostics, MDPI</li>
+        </ul>
+        <div class="sub-label">Peer Reviewer</div>
+        <ul class="service-list">
+          <li>Expert Systems with Applications <em>(Elsevier)</em></li>
+          <li>Engineering Applications of Artificial Intelligence <em>(Elsevier)</em></li>
+          <li>Biomedical Signal Processing and Control <em>(Elsevier)</em></li>
+          <li>Computers and Electrical Engineering <em>(Elsevier)</em></li>
+          <li>IEEE Transactions on Consumer Electronics <em>(IEEE)</em></li>
+          <li>Diagnostics, Cancers, Bioengineering <em>(MDPI)</em></li>
+        </ul>
+      </div>
+      <div>
+        <div class="sub-label">Honors &amp; Awards</div>
+        <div class="award-item">
+          <div class="award-title">Best Lecture Award — 2024</div>
+          <div class="award-detail">Awarded by the ACM Student Chapter at the 2024 ACM Internal Level Refresher Course, School of Computing, SRM Institute of Science and Technology, India (Aug 12–16, 2024).</div>
+        </div>
+        <div class="award-item">
+          <div class="award-title">Research Stay — Pompeu Fabra University</div>
+          <div class="award-detail">Invited by the Physense research group for a two-month research stay in Barcelona, Spain.</div>
+        </div>
+        <div class="award-item">
+          <div class="award-title">SRD Scholarship (approx. $50,000) — 2019–2023</div>
+          <div class="award-detail">Awarded by Dongguk University, Seoul, Republic of Korea, for doctoral studies.</div>
+        </div>
+        <div class="award-item">
+          <div class="award-title">ICT Scholarship (approx. $100,000) — 2009–2013</div>
+          <div class="award-detail">Awarded by National ICT R&amp;D, Pakistan, for the Bachelor's degree in Computer Science.</div>
+        </div>
+        <div class="award-item">
+          <div class="award-title">Honorary Reporter — 2021</div>
+          <div class="award-detail">Korean Culture and Information Service, Seoul, Republic of Korea (May 20, 2021).</div>
+        </div>
+        <div class="award-item">
+          <div class="award-title">Vice President — 2022–2023</div>
+          <div class="award-detail">Volunteer, Pakistan Students and Scholars Association (April 2022 – August 2023).</div>
+        </div>
+        <div class="award-item">
+          <div class="award-title">Graduate Committee Member</div>
+          <div class="award-detail">Evaluation and guidance for Master's and Ph.D. candidates.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="skills">
+  <div class="container">
+    <div class="section-head"><h2 class="section-title">Technical Skills</h2></div>
+    <div class="skill-grid">
+      <div>
+        <div class="skill-group-label">Programming &amp; Development</div>
+        <div class="skill-row"><span class="skill-level lvl-expert">Expert</span><span class="skill-name"><b>MATLAB</b> — image processing &amp; computer vision toolboxes</span></div>
+        <div class="skill-row"><span class="skill-level lvl-expert">Expert</span><span class="skill-name"><b>Python</b> — OpenCV, NumPy, scikit-learn, Pandas, Matplotlib, Tkinter</span></div>
+        <div class="skill-row"><span class="skill-level lvl-expert">Expert</span><span class="skill-name"><b>CUDA</b> — installation and GPU processing (Windows &amp; Linux)</span></div>
+        <div class="skill-row"><span class="skill-level lvl-inter">Intermediate</span><span class="skill-name"><b>Java</b> — GUI, file handling</span></div>
+        <div class="skill-row"><span class="skill-level lvl-inter">Intermediate</span><span class="skill-name"><b>C, C#, C++</b></span></div>
+      </div>
+      <div>
+        <div class="skill-group-label">Deep Learning Frameworks</div>
+        <div class="skill-row"><span class="skill-level lvl-expert">Expert</span><span class="skill-name"><b>PyTorch</b> — tensors, data loaders, neural networks, transformers</span></div>
+        <div class="skill-row"><span class="skill-level lvl-expert">Expert</span><span class="skill-name"><b>TensorFlow &amp; Keras</b> — tensors, data loaders, neural networks, transformers</span></div>
+        <div class="skill-row"><span class="skill-level lvl-expert">Expert</span><span class="skill-name"><b>MATLAB Deep Learning Toolbox</b></span></div>
+      </div>
+      <div>
+        <div class="skill-group-label">LLMs &amp; Agentic AI</div>
+        <div class="skill-row"><span class="skill-level lvl-expert">Expert</span><span class="skill-name"><b>Agentic AI frameworks</b> — multi-agent pipelines, autonomous clinical decision support</span></div>
+        <div class="skill-row"><span class="skill-level lvl-inter">Intermediate</span><span class="skill-name"><b>LangChain</b> — agent orchestration, tool use, RAG pipelines</span></div>
+        <div class="skill-row"><span class="skill-level lvl-inter">Intermediate</span><span class="skill-name"><b>Prompt engineering &amp; LLM fine-tuning</b> — LoRA, instruction tuning</span></div>
+      </div>
+      <div>
+        <div class="skill-group-label">Operating Systems</div>
+        <div class="skill-row"><span class="skill-level lvl-expert">Expert</span><span class="skill-name"><b>Ubuntu / Unix</b></span></div>
+        <div class="skill-row"><span class="skill-level lvl-expert">Expert</span><span class="skill-name"><b>Microsoft Windows</b></span></div>
       </div>
     </div>
   </div>
 </section>
 <section id="team">
   <div class="container">
-    <div class="section-head"><h2 class="section-title">Team</h2></div>
+    <div class="section-head"><h2 class="section-title">Team &amp; Collaborations</h2></div>
+    <div class="team-group">
+      <div class="team-group-label">Host Professor &amp; Research Advisor</div>
+      <div class="member-card">
+        <div class="member-avatar" style="background:#1a3a6b;">KP</div>
+        <div class="member-info">
+          <div class="member-name">Dr. Kang Ryoung Park</div>
+          <div class="member-role">Professor, Dongguk University</div>
+          <div class="member-research">Computer Vision, Biometrics</div>
+          <div class="member-bio">Long-term research collaborator in computer vision and biometric systems, Seoul, Korea.</div>
+          <div class="member-links"><a href="mailto:parkgr@dongguk.edu" class="member-link">✉ Email</a><a href="http://dm.dongguk.edu/index.html" target="_blank" class="member-link">🔗 Profile</a></div>
+        </div>
+      </div>
+    </div>
     <div class="team-group">
       <div class="team-group-label">Research Collaborators</div>
+      <div class="collab-grid">
         <div class="member-card">
-          <div class="member-avatar" style="background:#1a3a6b;">DK</div>
+          <div class="member-avatar" style="background:#1e40af;">TZ</div>
           <div class="member-info">
-            <div class="member-name">Dr. Kang Ryoung Park</div>
-            <div class="member-role">Host Professor and Research Advisor</div>
-            <div class="member-research">Computer Vision, Biometrics</div>
-            <div class="member-bio">Professor at Dongguk University, Seoul, Korea. Long-term research collaborator in computer vision and biometric systems.</div>
-            <div class="member-links"><a href="mailto:parkgr@dongguk.edu" class="member-link">✉ Email</a><a href="http://dm.dongguk.edu/index.html" target="_blank" class="member-link">🔗 Profile</a></div>
+            <div class="member-name">Dr. Talat Zehra</div>
+            <div class="member-role">Associate Professor</div>
+            <div class="member-research">Liaquat National Hospital and Medical College, Karachi</div>
+            <div class="member-bio">Computational pathology, including mitosis detection in leiomyosarcoma and ongoing work on automatic chorionic villi recognition.</div>
           </div>
         </div>
+        <div class="member-card">
+          <div class="member-avatar" style="background:#6b21a8;">NJ</div>
+          <div class="member-info">
+            <div class="member-name">Dr. Nazish Jaffar</div>
+            <div class="member-role">Associate Professor</div>
+            <div class="member-research">Jinnah Sindh Medical University, Karachi</div>
+            <div class="member-bio">AI-driven histopathology analysis, focusing on breast and colorectal cancer diagnosis.</div>
+          </div>
+        </div>
+        <div class="member-card">
+          <div class="member-avatar" style="background:#0f766e;">ND</div>
+          <div class="member-info">
+            <div class="member-name">Dr. Naqqash Dilshad</div>
+            <div class="member-role">Assistant Professor</div>
+            <div class="member-research">Sejong University, Seoul</div>
+            <div class="member-bio">Vision-based urban safety systems, including vehicle fire and smoke detection in real-world environments.</div>
+          </div>
+        </div>
+        <div class="member-card">
+          <div class="member-avatar" style="background:#8b1a1a;">NA</div>
+          <div class="member-info">
+            <div class="member-name">Dr. Najah Alsubaie</div>
+            <div class="member-role">Assistant Professor</div>
+            <div class="member-research">Princess Nourah bint Abdulrahman University, Saudi Arabia</div>
+            <div class="member-bio">Histopathology image analysis; jointly submitted a national-level research grant proposal.</div>
+          </div>
+        </div>
+        <div class="member-card">
+          <div class="member-avatar" style="background:#92400e;">SA</div>
+          <div class="member-info">
+            <div class="member-name">Dr. Shahzad Ahmed</div>
+            <div class="member-role">Assistant Professor</div>
+            <div class="member-research">Hanyang University, Seoul</div>
+            <div class="member-bio">AI-based vital sign monitoring using ultra-wideband radar and multimodal sensing technologies.</div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="team-group">
-      <div class="team-group-label">Ph.D. Students</div>
-        <div class="member-card">
-          <div class="member-avatar" style="background:#1e40af;">PS</div>
-          <div class="member-info">
-            <div class="member-name">PhD Student 1</div>
-            <div class="member-role">Ph.D. Student</div>
-            <div class="member-research">Computational Pathology</div>
-            <div class="member-bio">Working on deep learning methods for histopathology image analysis.</div>
-            
-          </div>
-        </div>
-    </div>
-    <div class="team-group">
-      <div class="team-group-label">M.S. Students</div>
-        <div class="member-card">
-          <div class="member-avatar" style="background:#6b21a8;">MS</div>
-          <div class="member-info">
-            <div class="member-name">MS Student 1</div>
-            <div class="member-role">M.S. Student</div>
-            <div class="member-research">Medical Image Segmentation</div>
-            <div class="member-bio">Research focused on segmentation of medical images using transformer-based architectures.</div>
-            
-          </div>
-        </div>
-    </div>
-  </div>
-</section>
-<section id="project">
-  <div class="container">
-    <div class="section-head"><h2 class="section-title">Current Project</h2></div>
-    <div class="project-card">
-      <div class="project-img">🔬</div>
-      <div class="project-body">
-        <div class="project-tag">Agentic AI · Medical Imaging</div>
-        <div class="project-title">Agentic AI for Autonomous and Interpretable Colorectal Polyp Segmentation</div>
-        <p class="project-desc">This project develops intelligent agentic AI systems capable of autonomously reasoning over colonoscopy images to detect and precisely segment colorectal polyps. Our goal is to build interpretable, clinically trustworthy pipelines that support gastroenterologists in early cancer screening and intervention.</p>
+      <div class="team-group-label">Graduate Students</div>
+      <div class="supervision-note" style="margin-top:0;">
+        My group currently includes <strong>2 Ph.D.</strong> and <strong>3 Master's</strong> students working across computational pathology, medical image segmentation, precision agriculture, and agentic AI systems. Individual student profiles will be listed here soon.
       </div>
     </div>
   </div>
@@ -441,14 +728,14 @@
     <div class="contact-grid">
       <div>
         <div class="contact-block"><div class="contact-block-label">Affiliation</div><p>Division of Electronics and Electrical Engineering<br />Dongguk University<br />Seoul<br />South Korea</p></div>
-        <div class="contact-block"><div class="contact-block-label">Email</div><p><a href="mailto:tahirmahmood@dongguk.edu">tahirmahmood@dongguk.edu</a></p></div>
+        <div class="contact-block"><div class="contact-block-label">Email</div><p><a href="mailto:tahirmahmood@dongguk.edu">tahirmahmood@dongguk.edu</a><br /><a href="mailto:tahirmahmood.cs@gmail.com">tahirmahmood.cs@gmail.com</a></p></div>
         <div class="contact-block"><div class="contact-block-label">Links</div>
           <p><a href="https://scholar.google.com/citations?user=9utniCgAAAAJ&hl=en" target="_blank">Google Scholar</a> · <a href="https://github.com/tahirlee" target="_blank">GitHub</a> · <a href="https://kaggle.com/tahirlee" target="_blank">Kaggle</a> · <a href="https://www.linkedin.com/in/tahir-mahmoodk" target="_blank">LinkedIn</a></p>
         </div>
       </div>
       <div class="contact-note">
         <h3>Prospective Students</h3>
-        <p>I am looking for motivated graduate students interested in computational pathology, surgical AI, and multimodal deep learning. If you are interested in joining my group, please send your CV and a brief research statement to my email.</p>
+        <p>I am looking for motivated graduate students interested in computational pathology, surgical AI, agentic AI systems, and physics-informed machine learning. If you are interested in joining my group, please send your CV and a brief research statement to my email.</p>
       </div>
     </div>
   </div>
